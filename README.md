@@ -1,5 +1,7 @@
 # Doussy Remotion Components
 
+A bunch of video components created with [Remotion](https://github.com/remotion-dev/remotion)
+
 ## Commands
 
 **Start Preview**
