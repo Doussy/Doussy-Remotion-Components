@@ -1,6 +1,6 @@
 import { Composition } from 'remotion'
-import { YoutubeSubscribe } from '../Compositions/YoutubeSubscribe/YoutubeSubscribe'
-import { TextOverlay } from '../Compositions/TextOverlay/TextOverlay'
+import { YoutubeSubscribe } from './Compositions/YoutubeSubscribe/YoutubeSubscribe'
+import { TextOverlay } from './Compositions/TextOverlay/TextOverlay'
 
 export const RemotionVideo: React.FC = () => {
 	const highResolutionWidth = 3840 // 4k

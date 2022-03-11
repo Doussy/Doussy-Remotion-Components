@@ -1,6 +1,6 @@
 import {interpolate} from 'remotion'
 import {useCurrentFrame} from 'remotion'
-import { HandPointer } from '../../src/components/HandPointer';
+import { HandPointer } from '../../components/HandPointer';
 
 type Props = {
 	startLeft: number,

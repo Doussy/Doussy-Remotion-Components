@@ -1,6 +1,6 @@
-import { Button } from '../../src/components/Button'
-import { ContainerTopRight } from '../../src/components/ContainerTopRight';
-import { ProfileImage } from '../../src/components/ProfileImage';
+import { Button } from '../../components/Button'
+import { ContainerTopRight } from '../../components/ContainerTopRight';
+import { ProfileImage } from '../../components/ProfileImage';
 
 export const ButtonBellClicked: React.FC = () => {
 
