@@ -2,6 +2,8 @@
 
 A bunch of video components created with [Remotion](https://github.com/remotion-dev/remotion)
 
+All the coponents are setup as a greenscreen.
+
 ## Commands
 
 **Start Preview**
