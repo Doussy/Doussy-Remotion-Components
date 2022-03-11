@@ -18,4 +18,9 @@ yarn build
 
 ## Components List
 - Text Overlay
+
+![Text Overlay](src/images/gifs/TextOverlayGif.gif)
+
 - Youtube subscribe button
+
+![Youtube subscribe button](src/images/gifs/YoutubeSubscribeGif.gif)
