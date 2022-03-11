@@ -39,14 +39,14 @@ return (
 
 
 		{/* Hand Pointer Movement */}
-		<div>
+		<>
 			<Sequence from={0} durationInFrames={55}>
 				<HandPointerMovement startLeft={2100} endLeft={3100} startTop={1000} endTop={300} />
 			</Sequence>
 			<Sequence from={55}>
 				<HandPointerMovement startLeft={3100} endLeft={3400} startTop={300} endTop={300} />
 			</Sequence>
-		</div>
+		</>
 	</div>
 );
 };
