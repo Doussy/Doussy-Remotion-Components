@@ -17,4 +17,5 @@ yarn build
 ```
 
 ## Components List
+- Text Overlay
 - Youtube subscribe button

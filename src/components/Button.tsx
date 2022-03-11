@@ -1,8 +1,8 @@
 export const Button: React.FC<{ text: string, backgroundColor: string }> = ({ text, backgroundColor }) => {
 
-return (
-	<div
-		style={{
+  return (
+    <div
+      style={{
         backgroundColor,
         fontSize: '7em',
         color: '#ffffff',
@@ -14,8 +14,8 @@ return (
         borderRadius: '10px',
         fontFamily: 'arial',
         alignSelf: 'center',
-		}}
-	>{text}
-	</div>
+      }}
+    >{text}
+    </div>
   )
 };
