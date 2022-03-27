@@ -1,6 +1,6 @@
 import { Composition } from 'remotion'
 import { YoutubeSubscribe } from './Compositions/YoutubeSubscribe/YoutubeSubscribe'
-import { TextOverlay } from './Compositions/TextOverlay/TextOverlay'
+import { TextOverlay1, TextOverlay2 } from './Compositions/TextOverlays'
 
 export const RemotionVideo: React.FC = () => {
 	const highResolutionWidth = 3840 // 4k
@@ -19,9 +19,17 @@ export const RemotionVideo: React.FC = () => {
 				height={highResolutionHeight}
 			/>
 			<Composition
-				id="Text-Overlay"
-				component={TextOverlay}
+				id="Text-Overlay-1"
+				component={TextOverlay1}
 				durationInFrames={4 * fps}
+				fps={fps}
+				width={highResolutionWidth}
+				height={highResolutionHeight}
+			/>
+			<Composition
+				id="Text-Overlay-2"
+				component={TextOverlay2}
+				durationInFrames={5 * fps}
 				fps={fps}
 				width={highResolutionWidth}
 				height={highResolutionHeight}

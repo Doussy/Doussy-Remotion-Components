@@ -1,7 +1,7 @@
 import { interpolate, spring, useVideoConfig } from 'remotion'
 import { Sequence, useCurrentFrame } from 'remotion'
 
-export const TextOverlay: React.FC = () => {
+export const TextOverlay1: React.FC = () => {
 	const frame = useCurrentFrame()
 	const { fps, durationInFrames } = useVideoConfig()
 	const durationInSeconds = durationInFrames / fps
@@ -27,7 +27,7 @@ export const TextOverlay: React.FC = () => {
 			<div style={{
 				opacity: fadeOut,
 			}}>
-				<Sequence from={0}>
+				<Sequence from={0} name="Top Text">
 					<div
 						style={{
 							fontSize: '30em',
@@ -46,7 +46,7 @@ export const TextOverlay: React.FC = () => {
 						{TopText}
 					</div>
 				</Sequence>
-				<Sequence from={20}>
+				<Sequence from={20} name="Line">
 					<div
 						style={{
 							width: '80%',
@@ -56,7 +56,7 @@ export const TextOverlay: React.FC = () => {
 							marginRight: 'auto',
 						}} />
 				</Sequence>
-				<Sequence from={30}>
+				<Sequence from={30} name="Bottom Text">
 					<div
 						style={{
 							fontSize: '30em',

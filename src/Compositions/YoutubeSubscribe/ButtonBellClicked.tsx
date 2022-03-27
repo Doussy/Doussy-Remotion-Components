@@ -10,11 +10,7 @@ export const ButtonBellClicked: React.FC = () => {
 			<Button text='SUBSCRIBED' backgroundColor='#aaa' />
 			<svg
 				viewBox="0 0 24 24"
-				preserveAspectRatio="xMidYMid meet"
-				focusable="false"
-				className="style-scope yt-icon"
 				style={{
-					pointerEvents: 'none',
 					display: 'block',
 					width: '190px',
 					height: '190px',
