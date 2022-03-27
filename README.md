@@ -19,9 +19,13 @@ yarn build
 ```
 
 ## Components List
+- Bitcoin Background
+
 - Text Overlay 1
 
 ![Text Overlay 1](src/images/gifs/TextOverlay1Gif.gif)
+
+- Text Overlay 2
 
 - Youtube subscribe button
 

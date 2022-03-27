@@ -1,4 +1,5 @@
 import { Composition } from 'remotion'
+import { BitcoinBackground } from './Compositions/Crypto/BitcoinBackground'
 import { YoutubeSubscribe } from './Compositions/YoutubeSubscribe/YoutubeSubscribe'
 import { TextOverlay1, TextOverlay2 } from './Compositions/TextOverlays'
 
@@ -10,6 +11,14 @@ export const RemotionVideo: React.FC = () => {
 
 	return (
 		<>
+			<Composition
+				id="Bitcoin-Background"
+				component={BitcoinBackground}
+				durationInFrames={10 * fps}
+				fps={fps}
+				width={highResolutionWidth}
+				height={highResolutionHeight}
+			/>
 			<Composition
 				id="Youtube-Subscribe"
 				component={YoutubeSubscribe}
