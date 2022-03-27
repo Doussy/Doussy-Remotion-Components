@@ -73,10 +73,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@remotion/bundler@2.6.11", "@remotion/bundler@^2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.6.11.tgz#f766205d8742766d603118fcd1e15654e87eda06"
-  integrity sha512-biZ/RhrOBW1CSVdh4NAta1WC3hU1B089bo1YerAEx1Fh4vK2ofL1bTei/2GBd2QUckV1f8fWOfIKLCKAGt0HUg==
+"@remotion/bundler@2.6.12", "@remotion/bundler@^2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.6.12.tgz#e44b53b6cc50f5b15b9183cc70eddbe90bffd920"
+  integrity sha512-AfC8plXXaMyPowAYia4w+GgJrej4SXK4LHUC2rcEJ1cdAp90UY1qobu8VptAafpSbrDtbxB7JJ+Ej+78uBnghQ==
   dependencies:
     css-loader "5.2.7"
     esbuild-loader "2.15.1"
@@ -86,37 +86,37 @@
     memfs "3.4.0"
     mime-types "2.1.34"
     react-refresh "0.9.0"
-    remotion "2.6.11"
+    remotion "2.6.12"
     semver "7.3.4"
-    source-map "0.5.7"
+    source-map "0.6.1"
     source-map-loader "3.0.0"
     style-loader "2.0.0"
     webpack "5.60.0"
 
-"@remotion/cli@^2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.6.11.tgz#55ae06c3cee51f79337ad37291c25aa3a6721885"
-  integrity sha512-NufeJ4P6ZSA3HoLXzsvCXzHtoU2R94EQ/drb17SGK92rYEtPDMyTAvQnyn1mKk1kQk37ZKmiW1ij3oY4YNC5bw==
+"@remotion/cli@^2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.6.12.tgz#313ad73a51bb190c073c9c3540b353dda2dfaaa3"
+  integrity sha512-QYOqo+QJAN7SWGQHAt+rMHtbHavlsmhA34b6Amb5MPppCH9AYh2NKR46rSwvkgAoOE5qRmDYH3VY3ajuhFOshw==
   dependencies:
-    "@remotion/bundler" "2.6.11"
-    "@remotion/media-utils" "2.6.11"
-    "@remotion/player" "2.6.11"
-    "@remotion/renderer" "2.6.11"
+    "@remotion/bundler" "2.6.12"
+    "@remotion/media-utils" "2.6.12"
+    "@remotion/player" "2.6.12"
+    "@remotion/renderer" "2.6.12"
     better-opn "2.1.1"
     chalk "4.1.2"
     dotenv "9.0.2"
     execa "5.1.1"
-    minimist "1.2.5"
-    remotion "2.6.11"
+    minimist "1.2.6"
+    remotion "2.6.12"
     semver "7.3.5"
     webpack "5.60.0"
 
-"@remotion/eslint-config@^2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/eslint-config/-/eslint-config-2.6.11.tgz#5fb71122a9f8f1e3306aca9b93ae01aba7564199"
-  integrity sha512-2JQGE0Oqu8T3Mnq+F8hRiS8rIAsftzoqgVNz/owM4TAUlU/j3Wq60E3FPvCVzI0HCOZpCXY4SeMdsNgbD1aDOQ==
+"@remotion/eslint-config@^2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/eslint-config/-/eslint-config-2.6.12.tgz#e0e7abec4972789c2703c7d5cfe1efe1070e77c6"
+  integrity sha512-TJ0KXC2BbHtuEqLMW9qy7dr2wTUPrXVUdqqzAc626La0NIcW2vmr08AEuFs4gmgFA9gV7d/YgPM99gKEQdzU2w==
   dependencies:
-    "@remotion/eslint-plugin" "2.6.11"
+    "@remotion/eslint-plugin" "2.6.12"
     "@typescript-eslint/eslint-plugin" "5.11.0"
     "@typescript-eslint/parser" "5.11.0"
     eslint-config-prettier "8.3.0"
@@ -126,35 +126,35 @@
     eslint-plugin-react "7.26.1"
     eslint-plugin-react-hooks "4.3.0"
 
-"@remotion/eslint-plugin@2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/eslint-plugin/-/eslint-plugin-2.6.11.tgz#81f6081408469c0bf9b75345d6d86c7a3038224a"
-  integrity sha512-VrFB8qw1uMbENjRnSAQaJHEFK2/KvbaoaHhEw5Wqolm9wmACLghAWW6UNV39zS+jY0gaYhfKNTNJrYA/8EhJpQ==
+"@remotion/eslint-plugin@2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/eslint-plugin/-/eslint-plugin-2.6.12.tgz#b4c25afed8dc7aa3fd9b96baf380f53e30ff855c"
+  integrity sha512-B8fqxSS5svdbXBB8rjRYZ3cd/qk51NRywH4x+W4B7k4+EQ4EpDd0s8f8HII4VfseD2/scHSEByWguOiIyH4lgg==
 
-"@remotion/media-utils@2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.6.11.tgz#7926b8951b3c1b19347b024f0b4d5367dec96367"
-  integrity sha512-qTTsilQDw4rWUwbSQVFsXhbHCYOoyID74SfYvnXkZF4SacMsHlILBflxrNBVzAtopwqBcixK7zzG8+lMlFM6fQ==
+"@remotion/media-utils@2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.6.12.tgz#bf764d0cf6cecdd0801d15085865009a8ea898a5"
+  integrity sha512-uJFz7Hx7uET/NanSXR2AvdNfySexpyVkbOFX3sZWN1Xk+sm3Y7rRAEKtxs21QJC4Vpi7rUIxEAtbh6T3NEffMg==
   dependencies:
-    remotion "2.6.11"
+    remotion "2.6.12"
 
-"@remotion/player@2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.6.11.tgz#04b3df87b530e2cc4b810e708619ec64bf9ae251"
-  integrity sha512-9QVQzR9pYuFfPkvzaxky2klFzAKZou5EC/HnLkw3RjvhagphP1oQhOiH0DsjkPz3Ls4RbXFEFA83rQbvrQIhVg==
+"@remotion/player@2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.6.12.tgz#d686aefc67639fc3effdcdcdac4b08656c860b9f"
+  integrity sha512-1JK0SmFHRA8zwR5fCySeOCK5FWprF2pcTNYqXPgPYWEGC+DQPjhgvyEvbF6qzD66+KWgkcymfMHPLF1s+CjOQw==
   dependencies:
-    remotion "2.6.11"
+    remotion "2.6.12"
 
-"@remotion/renderer@2.6.11", "@remotion/renderer@^2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.6.11.tgz#a3c5192a05a9fb5edf5ce5f54cedd0c0ed7f4d2d"
-  integrity sha512-6df3feF0ZUMMNdVN6CzVmTYKEOd3MaaM+Yx47Ow4lcPZ223ySg+FEP6UrZ/HWMaKf3UFoYa968KxaYA+z0NFiw==
+"@remotion/renderer@2.6.12", "@remotion/renderer@^2.6.12":
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.6.12.tgz#4dc7ea66627d4f26c9ace77bedaf386d327237ba"
+  integrity sha512-CbtvV3zY71BlaEMHsdKBhhZPCegKDaBHPJFKWE3Q2N3JnwKaISI/e31FyhCphnSXFsgN8RHaE32aysljuF51Bw==
   dependencies:
-    "@remotion/bundler" "2.6.11"
+    "@remotion/bundler" "2.6.12"
     execa "5.1.1"
     p-limit "3.1.0"
     puppeteer-core "13.1.2"
-    remotion "2.6.11"
+    remotion "2.6.12"
     serve-handler "6.1.3"
 
 "@types/body-parser@*":
@@ -2114,7 +2114,12 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@1.2.5, minimist@^1.2.5:
+minimist@1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+
+minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
@@ -2608,10 +2613,10 @@ regexpp@^3.1.0, regexpp@^3.2.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
 
-remotion@2.6.11, remotion@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.6.11.tgz#663031832c34f388549c541a3719e9345b009caf"
-  integrity sha512-CDM8lrjJHVqY7ssRHlUC44pO8VQ7FCwCmExlDnQXGofOlivLTdhOkYKqd/RYWY9Gt0pObBq+lNKZK+FOLlyCdQ==
+remotion@2.6.12, remotion@^2.6.12:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.6.12.tgz#5453a2ac89f821ce4846ec618b22853f395dedbf"
+  integrity sha512-neGYMGbDT/dAKNqlN8W/2UY+AbY9J9wnRsf2c4cDrv36Ox9emBBNyiwMWZ/9IN5Z8KGZE8K1iV+/NRlk8W3Npw==
 
 require-from-string@^2.0.2:
   version "2.0.2"
@@ -2862,12 +2867,7 @@ source-map-support@^0.5.17, source-map-support@~0.5.20:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map@0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
-  integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
-
-source-map@^0.6.0, source-map@^0.6.1:
+source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
