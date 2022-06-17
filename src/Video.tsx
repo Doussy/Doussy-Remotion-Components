@@ -1,4 +1,4 @@
-import { Composition } from 'remotion'
+import { Composition, Folder } from 'remotion'
 import { BitcoinBackground } from './Compositions/Crypto/BitcoinBackground'
 import { YoutubeSubscribe } from './Compositions/YoutubeSubscribe/YoutubeSubscribe'
 import { TextOverlay1, TextOverlay2 } from './Compositions/TextOverlays'
@@ -11,38 +11,46 @@ export const RemotionVideo: React.FC = () => {
 
 	return (
 		<>
-			<Composition
-				id="Bitcoin-Background"
-				component={BitcoinBackground}
-				durationInFrames={10 * fps}
-				fps={fps}
-				width={highResolutionWidth}
-				height={highResolutionHeight}
-			/>
-			<Composition
-				id="Youtube-Subscribe"
-				component={YoutubeSubscribe}
-				durationInFrames={4 * fps}
-				fps={fps}
-				width={highResolutionWidth}
-				height={highResolutionHeight}
-			/>
-			<Composition
-				id="Text-Overlay-1"
-				component={TextOverlay1}
-				durationInFrames={4 * fps}
-				fps={fps}
-				width={highResolutionWidth}
-				height={highResolutionHeight}
-			/>
-			<Composition
-				id="Text-Overlay-2"
-				component={TextOverlay2}
-				durationInFrames={5 * fps}
-				fps={fps}
-				width={highResolutionWidth}
-				height={highResolutionHeight}
-			/>
+			<Folder name="Visuals">
+				<Composition
+					id="Bitcoin-Background"
+					component={BitcoinBackground}
+					durationInFrames={10 * fps}
+					fps={fps}
+					width={highResolutionWidth}
+					height={highResolutionHeight}
+				/>
+			</Folder>
+
+			<Folder name="Youtube">
+				<Composition
+					id="Youtube-Subscribe"
+					component={YoutubeSubscribe}
+					durationInFrames={4 * fps}
+					fps={fps}
+					width={highResolutionWidth}
+					height={highResolutionHeight}
+				/>
+			</Folder>
+
+			<Folder name="Text-Overlays">
+				<Composition
+					id="Text-Overlay-1"
+					component={TextOverlay1}
+					durationInFrames={4 * fps}
+					fps={fps}
+					width={highResolutionWidth}
+					height={highResolutionHeight}
+				/>
+				<Composition
+					id="Text-Overlay-2"
+					component={TextOverlay2}
+					durationInFrames={5 * fps}
+					fps={fps}
+					width={highResolutionWidth}
+					height={highResolutionHeight}
+				/>
+			</Folder>
 		</>
 	);
 };
