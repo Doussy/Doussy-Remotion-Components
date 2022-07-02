@@ -1,4 +1,6 @@
-export const ContainerTopRight: React.FC = ({ children }) => {
+import { ReactNode } from "react";
+
+export const ContainerTopRight: React.FC<{children: ReactNode}> = ({ children }) => {
 
   return (
 	<div

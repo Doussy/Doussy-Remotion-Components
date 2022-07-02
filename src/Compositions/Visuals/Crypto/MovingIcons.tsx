@@ -1,11 +1,10 @@
 import { interpolate } from 'remotion'
 import { useCurrentFrame } from 'remotion'
-import { BitcoinIcon } from '../../components/BitcoinIcon';
+import { BitcoinIcon } from './BitcoinIcon';
 
 type Props = {
 	direction: 'up' | 'down'
 }
-
 export const MovingIcons: React.FC<Props> = ({ direction }) => {
 	const frame = useCurrentFrame()
 
@@ -18,7 +17,7 @@ export const MovingIcons: React.FC<Props> = ({ direction }) => {
 			flexDirection: 'column',
 			marginTop: direction === "up" ? `${top}px` : `-${top}px`,
 		}}>
-			{[...Array(n)].map((e, i) => <div style={{ margin: '30px' }}><BitcoinIcon key={i} /></div>)}
+			{[...Array(n)].map((e, i) => <div style={{ margin: '30px' }}><BitcoinIcon /></div>)}
 		</div>
 	);
 };

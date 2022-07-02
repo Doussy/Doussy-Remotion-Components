@@ -1,6 +1,6 @@
 import { Button } from '../../components/Button'
 import { ContainerTopRight } from '../../components/ContainerTopRight'
-import { ProfileImage } from '../../components/ProfileImage'
+import { ProfileImage } from './ProfileImage'
 
 export const ButtonSubscribe: React.FC = () => {
 

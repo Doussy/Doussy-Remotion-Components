@@ -1,6 +1,7 @@
 import { Composition, Folder } from 'remotion'
-import { BitcoinBackground } from './Compositions/Crypto/BitcoinBackground'
-import { YoutubeSubscribe } from './Compositions/YoutubeSubscribe/YoutubeSubscribe'
+import { BitcoinBackground } from './Compositions/Visuals/Crypto/BitcoinBackground'
+import { YoutubeSubscribe1 } from './Compositions/Youtube/YoutubeSubscribe1'
+import { YoutubeSubscribe2 } from './Compositions/Youtube/YoutubeSubscribe2'
 import { TextOverlay1, TextOverlay2 } from './Compositions/TextOverlays'
 
 export const RemotionVideo: React.FC = () => {
@@ -24,8 +25,16 @@ export const RemotionVideo: React.FC = () => {
 
 			<Folder name="Youtube">
 				<Composition
-					id="Youtube-Subscribe"
-					component={YoutubeSubscribe}
+					id="Youtube-Subscribe-1"
+					component={YoutubeSubscribe1}
+					durationInFrames={4 * fps}
+					fps={fps}
+					width={highResolutionWidth}
+					height={highResolutionHeight}
+				/>
+				<Composition
+					id="Youtube-Subscribe-2"
+					component={YoutubeSubscribe2}
 					durationInFrames={4 * fps}
 					fps={fps}
 					width={highResolutionWidth}
