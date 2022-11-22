@@ -3,10 +3,17 @@ import { BitcoinBackground } from './Compositions/Visuals/Crypto/BitcoinBackgrou
 import { YoutubeSubscribe1 } from './Compositions/Youtube/YoutubeSubscribe1'
 import { YoutubeSubscribe2 } from './Compositions/Youtube/YoutubeSubscribe2'
 import { TextOverlay1, TextOverlay2 } from './Compositions/TextOverlays'
+import { LogoIntro } from './Compositions/WebinarGeek/LogoIntro'
+import { WebinarsHosted } from './Compositions/WebinarGeek/WebinarsHosted'
+import { FullComposition } from './Compositions/WebinarGeek/FullComposition'
+import { TotalRegistrations } from './Compositions/WebinarGeek/TotalRegistrations'
 
 export const RemotionVideo: React.FC = () => {
 	const highResolutionWidth = 3840 // 4k
 	const highResolutionHeight = 2160 // 4k
+
+	const horizontalWidth = 1080
+	const horizontalHeight = 1920
 
 	const fps = 30
 
@@ -54,10 +61,45 @@ export const RemotionVideo: React.FC = () => {
 				<Composition
 					id="Text-Overlay-2"
 					component={TextOverlay2}
-					durationInFrames={5 * fps}
+					durationInFrames={6 * fps}
 					fps={fps}
 					width={highResolutionWidth}
 					height={highResolutionHeight}
+				/>
+			</Folder>
+
+			<Folder name="WebinarGeek">
+				<Composition
+					id="Logo-Intro"
+					component={LogoIntro}
+					durationInFrames={2  * fps}
+					fps={fps}
+					width={horizontalWidth}
+					height={horizontalHeight}
+				/>
+				<Composition
+					id="Webinars-Hosted"
+					component={WebinarsHosted}
+					durationInFrames={3  * fps}
+					fps={fps}
+					width={horizontalWidth}
+					height={horizontalHeight} 
+				/>
+				<Composition
+					id="Total-Registrations"
+					component={TotalRegistrations}
+					durationInFrames={3  * fps}
+					fps={fps}
+					width={horizontalWidth}
+					height={horizontalHeight} 
+				/>
+				<Composition
+					id="Full-Composition"
+					component={FullComposition}
+					durationInFrames={11  * fps}
+					fps={fps}
+					width={horizontalWidth}
+					height={horizontalHeight} 
 				/>
 			</Folder>
 		</>
