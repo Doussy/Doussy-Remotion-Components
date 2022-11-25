@@ -1,5 +1,5 @@
 import { spring } from 'remotion'
-import { useCurrentFrame } from 'remotion';
+import { useCurrentFrame } from 'remotion'
 
 export const WebinarsHosted: React.FC = () => {
 	const frame = useCurrentFrame();
@@ -34,4 +34,4 @@ export const WebinarsHosted: React.FC = () => {
 			</div>
 		</div>
 	)
-};
+}

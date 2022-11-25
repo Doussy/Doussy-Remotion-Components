@@ -9,9 +9,11 @@ import { FullComposition } from './Compositions/WebinarGeek/FullComposition'
 import { TotalRegistrations } from './Compositions/WebinarGeek/TotalRegistrations'
 
 export const RemotionVideo: React.FC = () => {
-	const highResolutionWidth = 3840 // 4k
-	const highResolutionHeight = 2160 // 4k
+	// 4k Landscape
+	const highResolutionWidth = 3840
+	const highResolutionHeight = 2160
 
+	// 1080 Horizonal
 	const horizontalWidth = 1080
 	const horizontalHeight = 1920
 
@@ -72,7 +74,7 @@ export const RemotionVideo: React.FC = () => {
 				<Composition
 					id="Logo-Intro"
 					component={LogoIntro}
-					durationInFrames={2  * fps}
+					durationInFrames={2 * fps}
 					fps={fps}
 					width={horizontalWidth}
 					height={horizontalHeight}
@@ -80,28 +82,28 @@ export const RemotionVideo: React.FC = () => {
 				<Composition
 					id="Webinars-Hosted"
 					component={WebinarsHosted}
-					durationInFrames={3  * fps}
+					durationInFrames={3 * fps}
 					fps={fps}
 					width={horizontalWidth}
-					height={horizontalHeight} 
+					height={horizontalHeight}
 				/>
 				<Composition
 					id="Total-Registrations"
 					component={TotalRegistrations}
-					durationInFrames={3  * fps}
+					durationInFrames={3 * fps}
 					fps={fps}
 					width={horizontalWidth}
-					height={horizontalHeight} 
+					height={horizontalHeight}
 				/>
 				<Composition
-					id="Full-Composition"
+					id="WebinarGeek"
 					component={FullComposition}
-					durationInFrames={11  * fps}
+					durationInFrames={19 * fps}
 					fps={fps}
 					width={horizontalWidth}
-					height={horizontalHeight} 
+					height={horizontalHeight}
 				/>
 			</Folder>
 		</>
-	);
-};
+	)
+}
